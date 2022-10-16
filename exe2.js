@@ -38,10 +38,10 @@ function botaozar() {
     var sex = "uma mulher";
   } else if (fem) {
     fot.src = "Imagens/velha.jpg";
-    var sex = "um velho";
+    var sex = "um velha";
   } else {
     fot.src = "Imagens/velho.jpg";
-    var sex = "uma velha";
+    var sex = "uma velho";
   }
   res.innerHTML = `Detectamos ${sex} de ${idade} anos`;
 
