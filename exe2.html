@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 25 e 27</title>
+    <link rel="stylesheet" href="exe2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+      <div>
+        <p>
+          Seu Ano de Nascimento: <input type="number" name="numero" id="anu" />
+        </p>
+      </div>
+
+      <div>
+        <p>
+          Seu Sexo:
+          <input type="radio" name="radsex" id="caixa1" />
+          <label for="caixa1"> Masculino</label>
+          <input type="radio" name="radsex" id="caixa2" />
+          <label for="caixa2"> Feminino</label>
+        </p>
+      </div>
+
+      <div>
+        <input
+          type="button"
+          value="Verificar"
+          id="botao"
+          onclick="botaozar()"
+        />
+      </div>
+
+      <div id="mensagem">
+        <p></p>
+      </div>
+
+      <div>
+        <img id="imagem" />
+      </div>
+    </section>
+
+    <footer>
+      <p>Realizado por André Asseituno</p>
+    </footer>
+  </body>
+</html>
+
+<script src="exe2.js"></script>
